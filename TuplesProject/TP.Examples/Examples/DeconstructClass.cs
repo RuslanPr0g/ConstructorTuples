@@ -1,9 +1,9 @@
-﻿namespace TuplesProject.Exaples
+﻿namespace TP.Examples
 {
-    class DeconstructClass
+    public class DeconstructClass
     {
         public DeconstructClass(string firstName, string middleName, string lastName)
-      => (FirstName, MiddleName, LastName) = (firstName, middleName, lastName);
+            => (FirstName, MiddleName, LastName) = (firstName, middleName, lastName);
 
         public void Deconstruct(out string firstName,
           out string middleName,

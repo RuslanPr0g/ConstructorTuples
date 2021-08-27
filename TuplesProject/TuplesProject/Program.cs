@@ -1,5 +1,5 @@
 ﻿using System;
-using TuplesProject.Exaples;
+using TP.Examples;
 
 namespace TuplesProject
 {

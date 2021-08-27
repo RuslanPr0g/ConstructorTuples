@@ -1,6 +1,6 @@
-﻿namespace TuplesProject.Exaples
+﻿namespace TP.Examples
 {
-    class TuplesClass
+    public class TuplesClass
     {
         public TuplesClass(string firstName, string middleName, string lastName)
         {

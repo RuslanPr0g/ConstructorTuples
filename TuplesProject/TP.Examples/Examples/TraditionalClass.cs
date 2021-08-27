@@ -1,6 +1,6 @@
-﻿namespace TuplesProject.Exaples
+﻿namespace TP.Examples
 {
-    class TraditionalClass
+    public class TraditionalClass
     {
         public TraditionalClass(string firstName, string middleName, string lastName)
         {
