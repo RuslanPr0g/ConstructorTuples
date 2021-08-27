@@ -1,4 +1,5 @@
 ﻿using System;
+using TuplesProject.Exaples;
 
 namespace TuplesProject
 {
@@ -6,7 +7,13 @@ namespace TuplesProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Tuples!");
+            var friend = new DeconstructClass("Thomas", "Claudius", "Huber");
+
+            var (first, middle, last) = friend; // this thing calls the Deconstruct() method
+
+            Console.WriteLine(first);
+            Console.WriteLine(middle);
+            Console.WriteLine(last);
         }
     }
 }
